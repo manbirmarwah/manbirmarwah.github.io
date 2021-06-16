@@ -160,12 +160,18 @@ input, select, textarea {
 		font-weight: 600;
 	}
 
-	em, i {
+	i {
 		font-style: italic;
 	}
 
+	em { 
+		color: rgb(255, 255, 255); 
+		font-style: bolder;
+		/* letter-spacing: 0.2rem; */
+	}
+
 	p {
-		margin: 0 0 2rem 0;				
+		margin: 0 0 2rem 0;		
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -201,7 +207,7 @@ input, select, textarea {
 	h2 {
 		font-size: 1.6rem;
 		line-height: 1.4;
-		letter-spacing: 0.2rem;
+		letter-spacing: 0.3rem;
 	}
 
 	h3 {
@@ -1138,9 +1144,9 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
-			background-position: center;
-			background-size: cover;
+			/* background-image: url("../../images/bg.jpg"); */
+			/* background-position: center;
+			background-size: cover; */
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
@@ -1285,21 +1291,21 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff;
-			border-top-width: 1.5px;
-			border-bottom-width: 1.5px;
+			border-color: #ffffff1e;
+			border-top-width: 12px;
+			border-bottom-width: 12px;
 			max-width: 100%;
 		}
 
 			#header .content .inner {
-				-moz-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-webkit-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-ms-transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				transition: max-height 0.75s ease, padding 0.75s ease, opacity 0.325s ease-in-out;
-				-moz-transition-delay: 0.25s;
-				-webkit-transition-delay: 0.25s;
-				-ms-transition-delay: 0.25s;
-				transition-delay: 0.25s;
+				-moz-transition: max-height 1.25s ease, padding 1s ease, opacity 0.325s ease-in-out;
+				-webkit-transition: max-height 1.25s ease, padding 1s ease, opacity 0.325s ease-in-out;
+				-ms-transition: max-height 1.25s ease, padding 1s ease, opacity 0.325s ease-in-out;
+				transition: max-height 1.25s ease, padding 1s ease, opacity 0.325s ease-in-out;
+				-moz-transition-delay: 0.35s;
+				-webkit-transition-delay: 0.35s;
+				-ms-transition-delay: 0.35s;
+				transition-delay: 0.35s;
 				padding: 4rem 3rem;
 				max-height: 40rem;
 				overflow: hidden;
@@ -1343,7 +1349,7 @@ input, select, textarea {
 					min-width: 2rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 1.2rem 0 1.45rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 1.4rem;
@@ -1621,7 +1627,7 @@ input, select, textarea {
 		#footer .copyright {
 			letter-spacing: 0.2rem;
 			font-size: 0.7rem;
-			opacity: 0.55;
+			opacity: 0.60;
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
