@@ -1291,12 +1291,13 @@ input, select, textarea {
 
 		#header .content {
 			border-style: solid;
-			border-color: #ffffff1e;
-			border-top-width: 12px;
-			border-bottom-width: 12px;
+			border-color: #ffffff2c;
+			border-top-width: 10px;
+			border-bottom-width: 10px;
 			max-width: 100%;
 		}
 
+			/* translucent lines */
 			#header .content .inner {
 				-moz-transition: max-height 1.25s ease, padding 1s ease, opacity 0.325s ease-in-out;
 				-webkit-transition: max-height 1.25s ease, padding 1s ease, opacity 0.325s ease-in-out;
@@ -1306,7 +1307,7 @@ input, select, textarea {
 				-webkit-transition-delay: 0.35s;
 				-ms-transition-delay: 0.35s;
 				transition-delay: 0.35s;
-				padding: 4rem 3rem;
+				padding: 2.5rem 2rem;
 				max-height: 40rem;
 				overflow: hidden;
 			}
