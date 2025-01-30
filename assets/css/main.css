@@ -1336,11 +1336,15 @@ input, select, textarea {
 			margin-top: -20px;
 			border: solid 0px #ffffff;
 			border-radius: 8px;
+			flex-direction: row;  /* Ensures items align horizontally */
+			justify-content: center; /* Centers items */
+			gap: 15px; /* Adjust spacing between icons */
 		}
 
 			#header nav ul li {
 				padding-left: 0;
 				border-left: solid 0px #ffffff;
+				display: inline-block; /* Keeps them aligned */
 			}
 
 				#header nav ul li:first-child {
