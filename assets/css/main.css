@@ -1326,19 +1326,19 @@ input, select, textarea {
 			}
 
 		#header nav ul {
-			display: -moz-flex;
+/* 			display: -moz-flex;
 			display: -webkit-flex;
 			display: -ms-flex;
-			display: flex;
+			display: flex; */
+			flex-direction: row;  /* Ensures items align horizontally */
+			justify-content: center; /* Centers items */
+			gap: 15px; /* Adjust spacing between icons */
 			margin-bottom: 0;
 			list-style: none;
 			padding-left: 0;
 			margin-top: -20px;
 			border: solid 0px #ffffff;
 			border-radius: 8px;
-			flex-direction: row;  /* Ensures items align horizontally */
-			justify-content: center; /* Centers items */
-			gap: 15px; /* Adjust spacing between icons */
 		}
 
 			#header nav ul li {
