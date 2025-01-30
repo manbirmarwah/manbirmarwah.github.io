@@ -1282,7 +1282,7 @@ input, select, textarea {
 			width: 7.5rem;
 			height: 7.5rem;
 			line-height: 5.5rem;
-			border: solid 1.8px #ffffff;
+			border: solid 1.9px #ffffff;
 			border-radius: 100%;
 			margin-top: -4rem
 		}
@@ -1436,9 +1436,9 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
-				height: 4.75rem;
-				line-height: 4.75rem;
+				width: 5rem;
+				height: 5rem;
+				line-height: 5rem;
 			}
 
 				#header .logo .icon:before {
