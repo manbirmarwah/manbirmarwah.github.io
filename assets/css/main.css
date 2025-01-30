@@ -69,7 +69,7 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: device-width;
+		width: 0.95;
 		white-space: nowrap;
 	}
 
