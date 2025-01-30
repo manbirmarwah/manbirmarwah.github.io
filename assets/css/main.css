@@ -70,6 +70,7 @@ input, select, textarea {
 
 	@-ms-viewport {
 		width: device-width;
+		white-space: nowrap;
 	}
 
 	@media screen and (max-width: 480px) {
