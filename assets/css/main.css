@@ -1466,20 +1466,17 @@ input, select, textarea {
 				}
 
 				#header nav ul {
-					-moz-flex-direction: column;
-					-webkit-flex-direction: column;
-					-ms-flex-direction: column;
-					flex-direction: column;
+					display: flex;
 					flex-wrap: nowrap; /* Prevents wrapping */
 					justify-content: center;
 					gap: 10px; /* Adjust spacing between icons */
-					min-width: 10rem;
-					max-width: 100%;
+					list-style: none;
 				}
 
 					#header nav ul li {
-						border-left: 0;
-						border-top: solid 1px #ffffff;
+						padding: 0;
+						margin: 0;
+						display: inline-block;
 					}
 
 						#header nav ul li:first-child {
