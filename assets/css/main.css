@@ -1466,17 +1466,17 @@ input, select, textarea {
 				}
 
 				#header nav ul {
-					display: flex;
-					flex-wrap: nowrap; /* Prevents wrapping */
-					justify-content: center;
-					gap: 10px; /* Adjust spacing between icons */
-					list-style: none;
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					min-width: 10rem;
+					max-width: 100%;
 				}
 
 					#header nav ul li {
-						padding: 0;
-						margin: 0;
-						display: inline-block;
+						border-left: 0;
+						border-top: solid 1px #ffffff;
 					}
 
 						#header nav ul li:first-child {
@@ -1484,29 +1484,11 @@ input, select, textarea {
 						}
 
 						#header nav ul li a {
-							display: flex; /* Makes the icon a flex item */
-							align-items: center;
-							justify-content: center;
-							width: 40px; /* Adjust icon size */
-							height: 40px;
-							padding: 0; /* Remove extra padding */
-							font-size: 1.5rem; /* Adjust icon size */
-							text-decoration: none;
-/* 							height: 3rem;
+							height: 3rem;
 							line-height: 3rem;
 							min-width: 0;
-							width: 100%; */
+							width: 100%;
 						}
-
-			#header nav ul li a span {
-				display: none; /* Hide text labels */
-			}
-
-			/* Make sure this applies only to mobile screens */
-			@media screen and (max-width: 768px) {
-				#header nav ul {
-					flex-wrap: nowrap; /* Prevents wrapping */
-				}
 
 				#header nav.use-middle:after {
 					display: none;
