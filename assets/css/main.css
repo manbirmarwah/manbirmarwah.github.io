@@ -1256,7 +1256,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3rem;
+			margin-top: 2.5rem;
 		}
 
 			#header > *:before {
@@ -1427,7 +1427,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header > * {
-				margin-top: 2.5rem;
+				margin-top: 1.5rem;
 			}
 
 				#header > *:before {
@@ -1436,9 +1436,9 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 7rem;
-				height: 7rem;
-				line-height: 7rem;
+				width: 6.5rem;
+				height: 6.5rem;
+				line-height: 6.5rem;
 			}
 
 				#header .logo .icon:before {
@@ -1627,7 +1627,7 @@ input, select, textarea {
 		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
 		width: 100%;
 		max-width: 100%;
-		margin-top: 2rem;
+		margin-top: 1.5rem;
 		text-align: center;
 	}
 
