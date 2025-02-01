@@ -1427,18 +1427,18 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header > * {
-				margin-top: 1.85rem;
+				margin-top: 2rem;
 			}
 
 				#header > *:before {
-					top: calc(-1.85rem - 1px);
+					top: calc(-2rem - 1px);
 					height: calc(2rem + 1px);
 				}
 
 			#header .logo {
 				width: 6.5rem;
 				height: 6.5rem;
-				line-height: 6.5rem;
+				line-height: 6.25rem;
 			}
 
 				#header .logo .icon:before {
@@ -1446,7 +1446,7 @@ input, select, textarea {
 				}
 
 			#header .content .inner {
-				padding: 2.5rem 1rem;
+				padding: 2.25rem 0.5rem;
 			}
 
 			#header .content p {
