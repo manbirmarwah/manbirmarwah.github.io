@@ -1427,11 +1427,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#header > * {
-				margin-top: 2rem;
+				margin-top: 1.85rem;
 			}
 
 				#header > *:before {
-					top: calc(-2rem - 1px);
+					top: calc(-1.85rem - 1px);
 					height: calc(2rem + 1px);
 				}
 
